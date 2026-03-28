@@ -17,3 +17,13 @@ Calculates Feret diameter (longest dimension) in micrometers (µm)
 Risk score (0–100) based on:
 Particle shape
 Particle size
+
+# 🧠 System Architecture
+Image → Preprocessing → Contour Detection → Classification → Size Estimation → Risk Score → Visualization → UI
+
+# 🛠️ Tech Stack
+1.Python
+2.OpenCV
+3.NumPy / Pandas
+4.Streamlit
+5.Matplotlib
